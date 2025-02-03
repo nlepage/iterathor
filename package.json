@@ -1,0 +1,39 @@
+{
+  "name": "iterathor",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "iterator"
+  ],
+  "homepage": "https://github.com/nlepage/iterathor#readme",
+  "bugs": {
+    "url": "https://github.com/nlepage/iterathor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlepage/iterathor.git"
+  },
+  "license": "MIT",
+  "author": "https://github.com/nlepage",
+  "type": "module",
+  "module": "./dist/iterathor.js",
+  "main": "./dist/iterathor.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/iterathor.js",
+      "require": "./dist/iterathor.cjs"
+    }
+  },
+  "files": [
+    "./dist/",
+    "./LICENSE",
+    "./package.json"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "vite": "^6.0.11"
+  }
+}
